@@ -1,0 +1,96 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+main{
+    max-width: 1440px;
+    min-width: 375px;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.logo {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.conteudo .ilustracao{
+    padding-left: 40px;
+    padding-top: 80px;
+}
+
+.conteudo .ilustracao img{
+    background-size: cover;
+}
+
+.conteudo .informacao{
+    margin-top: 100px;
+    padding-left: 50px;
+    color: white;
+}
+
+.conteudo .informacao h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-right: 150px;
+}
+
+.conteudo .informacao p{
+    font-size: 18px;
+    padding-right: 120px;
+    text-align: justify;
+}
+
+.conteudo .btn{
+    padding: 15px 65px;
+    border-radius: 50px;
+    margin-top: 32px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 40%, 49%);
+    border: none;
+}
+
+.conteudo .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+
+.conteudo .btn a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-right: 120px;
+    gap: 20px;
+}
+
+.social a{
+    border: 1px solid white;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 10px 15px;
+    color: white;
+}
+
+.social a:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+
+
+

@@ -1,0 +1,66 @@
+@media (max-width: 775px){
+    main{
+        background: url( ../images/bg-mobile.svg) center center no-repeat;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .conteudo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        
+    }
+
+    .conteudo img{
+        max-width: 100%;
+        padding-right: 40px;
+    }
+
+    .conteudo .informacao{
+        padding-left: 30px;
+    }
+
+    .conteudo .informacao h2{
+        font-size: 30px;
+        text-align: center; 
+        padding-left: 40px;
+    }
+
+    .conteudo .informacao p{
+        text-align: center;
+        padding-left: 40px;
+    }
+
+    .conteudo .btn{
+        padding: 15px 95px;
+        margin-left: 200px;
+    }
+    
+    .social{
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 70px;
+    }
+}
+
+@media (max-width: 375px) {
+    main{
+        max-width: 100%;
+    }
+    .conteudo .informacao h2{
+        margin-left: 50px;
+    }
+    .conteudo .informacao p{
+        margin-left: 50px;
+    }
+
+    .conteudo .informacao .btn{
+        margin-right: 200px;
+    }
+
+    .social{
+        margin-left: 150px;
+    }
+}
